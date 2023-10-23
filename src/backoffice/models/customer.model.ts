@@ -8,8 +8,8 @@ export class Customer {
     public document: string,
     public email: string,
     public pets: Pet[],
-    public billingAddress: Address,
-    public shippingAddress: Address,
+    public billingAddress: Address, //endereco de cobranca
+    public shippingAddress: Address, // endereco de entrega
     public creditCard: CreditCard,
     public password: string,
     public active: boolean,
